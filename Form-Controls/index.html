@@ -13,15 +13,55 @@
     </header>
     <main>
       <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
+        <!--Customer Name-->
+          <div>
+            <Label for="Name">Name:</Label>
+            <input type="text" id="Name" name="Name" placeholder="Enter your name" required />
+          </div>
+        <!-- Customer email --> 
+          <div>
+            <Label for="email">Email:</Label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+          </div>
+
+        <!-- Size choice --> 
+          <div>
+          <Label for="size">Choose a size:</Label>
+          <select id="Size" name="Size" required>
+            <option value="">--Please choose an option--</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option></select><div>
+
+            </div>
+      </div>
+       <!-- Color choice -->
+        <div></div>
+        <Fieldset>
+          <legend>Choose a color:</legend>
+          <div>
+            <input type="radio" id="red" name="color" value="red" required />
+            <label for="red">Red</label>
+          </div>
+          <div>
+            <input type="radio" id="blue" name="color" value="blue" />
+            <label for="blue">Blue</label>
+          </div>
+          <div>
+            <input type="radio" id="green" name="color" value="green" />
+            <label for="green">Green</label>
+
+        </Fieldset>
+          <div>
+          <Button type="submit">Submit</Button> 
+          </div>.
+         
       </form>
     </main>
+    
     <footer>
       <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>By Chibuikem Okwu</h2>
     </footer>
   </body>
 </html>
